@@ -1,0 +1,32 @@
+html {
+  background-color: #333333;
+  font-family: 'PT Sans', sans-serif;
+  color: #FFFFFF; }
+
+a {
+  text-decoration: none;
+  color: #FFF; }
+
+ul li {
+  list-style-type: none; }
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px; }
+  .header #clock, .header #day {
+    display: inline;
+    font-size: 5rem;
+    letter-spacing: 6px; }
+  .header #day {
+    text-transform: uppercase;
+    margin-right: 2em; }
+
+.col {
+  width: 25%;
+  float: left; }
+  .col ul li {
+    padding: 0 0 0 .5em; }
+
+/*# sourceMappingURL=style.css.map */

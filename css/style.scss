@@ -1,0 +1,43 @@
+html {
+    background-color: #333333;
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul {
+    li {
+        list-style-type: none;
+    }
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    #clock {
+        display: inline;
+        font-size: 5rem;
+        letter-spacing: 6px;
+    }
+    #day {
+        @extend #clock;
+        text-transform: uppercase;
+        margin-right: 2em;
+    }
+}
+
+.col {
+    width: 25%;
+    float: left;
+    ul {
+        li {
+            padding: 0 0 0 .5em;
+        }
+    }
+}
